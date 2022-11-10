@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2E9EC7291D43A60067A97A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E9EC6291D43A60067A97A /* SecondViewController.swift */; };
+		0F2E9EC9291D599D0067A97A /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E9EC8291D599D0067A97A /* enum.swift */; };
 		0F38D83B291C356800DAD991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F38D83A291C356800DAD991 /* AppDelegate.swift */; };
 		0F38D83D291C356800DAD991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F38D83C291C356800DAD991 /* SceneDelegate.swift */; };
 		0F38D83F291C356800DAD991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F38D83E291C356800DAD991 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F2E9EC6291D43A60067A97A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0F2E9EC8291D599D0067A97A /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
 		0F38D837291C356800DAD991 /* IMCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F38D83A291C356800DAD991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F38D83C291C356800DAD991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +64,9 @@
 			children = (
 				0F38D83A291C356800DAD991 /* AppDelegate.swift */,
 				0F38D83C291C356800DAD991 /* SceneDelegate.swift */,
+				0F2E9EC6291D43A60067A97A /* SecondViewController.swift */,
 				0F38D83E291C356800DAD991 /* ViewController.swift */,
+				0F2E9EC8291D599D0067A97A /* enum.swift */,
 				0F38D84E291C38C100DAD991 /* nextScreem.storyboard */,
 				0F38D840291C356800DAD991 /* Main.storyboard */,
 				0F38D843291C356A00DAD991 /* Assets.xcassets */,
@@ -142,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2E9EC9291D599D0067A97A /* enum.swift in Sources */,
+				0F2E9EC7291D43A60067A97A /* SecondViewController.swift in Sources */,
 				0F38D83F291C356800DAD991 /* ViewController.swift in Sources */,
 				0F38D83B291C356800DAD991 /* AppDelegate.swift in Sources */,
 				0F38D83D291C356800DAD991 /* SceneDelegate.swift in Sources */,

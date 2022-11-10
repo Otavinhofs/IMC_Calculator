@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondView" id="Y6W-OH-hqX" customClass="SecondViewController" customModule="IMCApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,6 +47,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="voltar"/>
+                                <connections>
+                                    <action selector="backTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="sGD-22-FU6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -69,6 +72,11 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0yG-ah-crk" secondAttribute="trailing" constant="76" id="ppk-Tj-zsc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="classification" destination="0yG-ah-crk" id="ZVj-8a-9K7"/>
+                        <outlet property="happyOrNot" destination="0Km-QY-TfV" id="VqK-cq-N9s"/>
+                        <outlet property="imc" destination="Oj6-J6-rUS" id="REH-tJ-Zqe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
