@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1D5508291F09B60030F55D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F2E9EC6291D43A60067A97A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0F2E9EC8291D599D0067A97A /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
 		0F38D837291C356800DAD991 /* IMCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +47,7 @@
 		0F38D82E291C356800DAD991 = {
 			isa = PBXGroup;
 			children = (
+				0F1D5508291F09B60030F55D /* README.md */,
 				0F38D839291C356800DAD991 /* IMCApp */,
 				0F38D838291C356800DAD991 /* Products */,
 			);
